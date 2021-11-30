@@ -1,0 +1,219 @@
+
+body{
+    background-color: #f35637;
+    background-image: url("singer.png");
+}
+
+.experience{
+    position: absolute;
+    width: 705px;
+    height: 137px;
+    left: 24px;
+    top: 295px;
+
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 177px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #F35637;
+    box-sizing: border-box;
+    animation: slide-down 2s ease-in-out 1 ;
+    animation: showup 6s 1;
+    
+}
+
+.mymusic{
+    position: absolute;
+    width: 506px;
+    height: 115px;
+    left: 866px;
+    top: 300px;
+    
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 140px;
+    line-height: 166px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #F35637;
+    animation: showup 6s 1;
+}
+
+.name{
+    position: absolute;
+width: 336px;
+height: 47px;
+left: 1076px;
+top: 810px;
+
+font-family: Londrina Solid;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #FFFFFF;
+
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #F35637;
+}
+
+.singer{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    animation: color 1s ease-in-out 0.3s 1;
+}
+
+
+/* end of homepage and beginning of the menu portion */
+
+
+.playlist{
+    padding-top: 1000px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.play1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 108px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    position: relative;
+    
+    left: auto;
+    right: auto;
+    text-decoration: none;
+}
+
+.play2{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 108px;
+text-align: center;
+
+color: #FFFFFF;
+position: relative;
+
+left: auto;
+right: auto;
+text-decoration: none;
+}
+
+.play3{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 108px;
+text-align: center;
+
+color: #FFFFFF;
+position: relative;
+left: auto;
+right: auto;
+text-decoration: none;
+}
+
+.play4{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 108px;
+text-align: center;
+
+color: #FFFFFF;
+position: relative;
+left: auto;
+right: auto;
+padding-bottom: 60px;
+text-decoration: none;
+}
+
+/*Boldening the playlist option menu when hovered over*/
+    
+
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+.play1:hover{
+    animation: bounce 1s ease-in-out;
+}
+.play2:hover{
+    animation: bounce 1s ease-in-out;
+}
+.play3:hover{
+    animation: bounce 1s ease-in-out;
+}
+.play4:hover{
+    animation: bounce 1s ease-in-out;
+}
+
+/* home page function */
+
+/*@keyframes slide-down {
+    0% {
+      margin-top: -100%;
+      height: 300%; 
+    } 
+  
+    70% {
+      margin-top: 0%;
+      height: 100%;
+    }
+  } */
+  @keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+ /* @keyframes color {
+      0%{
+          filter: grayscale(100%);
+      }
+      50%{
+          filter: grayscale(50%);
+      }
+      100%{
+          filter: grayscale(0%);
+      }
+  }
+  */
