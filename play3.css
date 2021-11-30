@@ -1,0 +1,79 @@
+body{
+    width: 1440px;
+    height: 900px;
+    background: #494F7A;    
+}
+.gobackButton{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 25px;
+    top: 43px;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+animation: showup 3s ease-in-out 1;
+}
+
+.takemeButton{
+    position: absolute;
+    width: 280px;
+height: 39px;
+left: 580px;
+top: 671px;
+    
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+animation: showup 3s ease-in-out 1;
+}
+
+.quote{
+    position: absolute;
+    width: 420px;
+height: 102px;
+left: 510px;
+top: 204px;
+    
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    animation: showup 3s ease-in-out 1;
+    
+}
+
+.photo{
+    position: absolute;
+    width: 806px;
+    height: 673px;
+    left: 317px;
+    top: 146px;
+    animation: showup 1.5s ease-in-out 1;
+}
+
+@keyframes showup {
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
